@@ -24,7 +24,7 @@ class BaseRainbowResult(unittest.TestResult):
         self.stream = stream
         self.descriptions = descriptions
 
-        self.width = get_terminal_size()[0]
+        self.width = get_terminal_size()[0] * 0.8
         self.tick = False
         self.number_of_lines = 4
         self.trajectories = [[], [], [], []]
