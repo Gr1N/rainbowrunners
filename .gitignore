@@ -21,6 +21,7 @@ develop-eggs
 lib
 lib64
 __pycache__
+MANIFEST
 
 # Installer logs
 pip-log.txt
@@ -37,3 +38,11 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# IDE and editors
+.idea
+*sublime*
+
+# Other
+.DS_Store
+
