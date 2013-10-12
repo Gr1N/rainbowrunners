@@ -6,7 +6,7 @@ Awesome rainbow test runners!!1
 Available runners
 -----------------
 
-# NyanCatRunner
+* NyanCatRunner
 ```python
 from rainbowrunners.runner import NyanCatRunner
 
