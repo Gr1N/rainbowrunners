@@ -11,9 +11,7 @@ __all__ = (
 
 
 class BaseRainbowResult(unittest.TestResult):
-    """A test result class that can print formatted text results to a stream.
-
-    Used by TextTestRunner.
+    """A test result class that can print rainbow and awesome pet to a stream.
     """
 
     separator1 = '\033[{0}m{1:*^70}\033[0m'.format(Colors.SEPARATOR1, '')
