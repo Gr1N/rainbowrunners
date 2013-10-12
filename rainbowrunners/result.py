@@ -132,16 +132,16 @@ class BaseRainbowResult(unittest.TestResult):
     def rainbowify(self, string):
         color = self.rainbow_colors[self.color_index % len(self.rainbow_colors)]
         self.color_index += 1
-        return '\033[38;5;{0:d}m{1}\033[0m'.format(color, string)
+        return '\033[38;5;{0}m{1}\033[0m'.format(color, string)
 
     def generate_colors(self):
         pi3 = math.floor(math.pi / 3)
-        n = lambda i: i * (1 / 6)
+        n = lambda i: i * (1.0 / 6)
         r = lambda i: math.floor(3 * math.sin(n(i)) + 3)
         g = lambda i: math.floor(3 * math.sin(n(i) + 2 + pi3) + 3)
         b = lambda i: math.floor(3 * math.sin(n(i) + 4 + pi3) + 3)
 
-        colors = [36 * r(i) + 6 * g(i) + b(i) + 16 for i in range(42)]
+        colors = [int(36 * r(i) + 6 * g(i) + b(i) + 16) for i in range(42)]
         return colors
 
     def cursor_up(self):

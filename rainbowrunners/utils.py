@@ -35,7 +35,7 @@ def get_terminal_size():
             fd = os.open(os.ctermid(), os.O_RDONLY)
             cr = ioctl_GWINSZ(fd)
             os.close(fd)
-        except:
+        except Exception:  # Pokémon Exception Handling again... =(
             pass
     if not cr:
         cr = os.environ.get('LINES', 25), os.environ.get('COLUMNS', 80)
