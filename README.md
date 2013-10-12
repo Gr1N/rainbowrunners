@@ -7,6 +7,7 @@ Available runners
 -----------------
 
 * NyanCatRunner
+
 ```python
 from rainbowrunners.runner import NyanCatRunner
 
