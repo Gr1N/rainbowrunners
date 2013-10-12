@@ -29,4 +29,4 @@ OK
 License
 -------
 
-EasyPaint is distributed under the [MIT license](http://www.opensource.org/licenses/MIT).
+Rainbow Runners is distributed under the [MIT license](http://www.opensource.org/licenses/MIT).
