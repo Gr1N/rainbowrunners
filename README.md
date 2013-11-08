@@ -26,6 +26,15 @@ Ran 20 tests in 3.04s
 OK
 ```
 
+Django support
+--------------
+
+```python
+# settings.py
+TEST_RUNNER = 'rainbowrunners.djrunner.NyanCatDiscoverRunner'
+```
+
+
 License
 -------
 
