@@ -11,7 +11,7 @@ except:
 
 setup(
     name='rainbowrunners',
-    version='0.0.1',
+    version='0.0.3.dev0',
     author='Nikita Grishko',
     author_email='grin.minsk@gmail.com',
     packages=['rainbowrunners',],
