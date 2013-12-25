@@ -2,7 +2,7 @@ Rainbow Runners
 ===============
 
 Awesome rainbow test runners!!1
-See demo with Nyan Cat on [Shert.tv](http://shelr.tv/records/52bb2fad9660800fe9000037)!
+See demo with Nyan Cat on [Shelr.tv](http://shelr.tv/records/52bb2fad9660800fe9000037)!
 
 Available runners
 -----------------
