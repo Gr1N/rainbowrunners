@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Rainbowrunners by Gr1N</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Rainbowrunners</h1>
+        <p>Awesome rainbow test runners!!1</p>
+
+        <p class="view"><a href="https://github.com/Gr1N/rainbowrunners">View the Project on GitHub <small>Gr1N/rainbowrunners</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/Gr1N/rainbowrunners/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/Gr1N/rainbowrunners/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/Gr1N/rainbowrunners">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="rainbow-runners" class="anchor" href="#rainbow-runners"><span class="octicon octicon-link"></span></a>Rainbow Runners</h1>
+
+<p>Awesome rainbow test runners!!1
+See demo with Nyan Cat on <a href="http://shelr.tv/records/52bb2fad9660800fe9000037">Shelr.tv</a>!</p>
+
+<h2>
+<a name="available-runners" class="anchor" href="#available-runners"><span class="octicon octicon-link"></span></a>Available runners</h2>
+
+<ul>
+<li>NyanCatRunner</li>
+</ul><div class="highlight highlight-python"><pre><span class="kn">from</span> <span class="nn">rainbowrunners.runner</span> <span class="kn">import</span> <span class="n">NyanCatRunner</span>
+
+<span class="n">suite</span> <span class="o">=</span> <span class="n">unittest</span><span class="o">.</span><span class="n">TestLoader</span><span class="p">()</span><span class="o">.</span><span class="n">loadTestsFromTestCase</span><span class="p">(</span><span class="n">Tests</span><span class="p">)</span>
+<span class="n">NyanCatRunner</span><span class="p">()</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">suite</span><span class="p">)</span>
+</pre></div>
+
+<pre lang="shell"><code>» python tests_ok.py
+ 20  -_-_-_-_-_-_-_-_-_-__,------,
+ 0   -_-_-_-_-_-_-_-_-_-__|  /\_/\
+ 0   -_-_-_-_-_-_-_-_-_-_~|_( ^ .^)
+     -_-_-_-_-_-_-_-_-_-_ ""  ""
+----------------------------------------------------------------------
+Ran 20 tests in 3.04s
+
+OK
+</code></pre>
+
+<h2>
+<a name="django-support" class="anchor" href="#django-support"><span class="octicon octicon-link"></span></a>Django support</h2>
+
+<div class="highlight highlight-python"><pre><span class="c"># settings.py</span>
+<span class="n">TEST_RUNNER</span> <span class="o">=</span> <span class="s">'rainbowrunners.djrunner.NyanCatDiscoverRunner'</span>
+</pre></div>
+
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>Rainbow Runners is distributed under the <a href="http://www.opensource.org/licenses/MIT">MIT license</a>.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/Gr1N">Gr1N</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
