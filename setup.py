@@ -12,7 +12,7 @@ def read(*rnames):
 
 setup(
     name='rainbowrunners',
-    version='0.0.3.dev0',
+    version='0.1',
     description='Awesome rainbow test runners',
     long_description=read('README.rst'),
     author='Nikita Grishko',
