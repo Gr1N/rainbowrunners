@@ -1,5 +1,4 @@
-include *.in
-include LICENSE
-include README.md
 prune tests/
 prune tox.ini
+prune *.md
+include *.rst *.in LICENSE
